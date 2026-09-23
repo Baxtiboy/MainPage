@@ -4,11 +4,8 @@
     background: none;
     text-decoration: none;
     border: none;
-    font-family:'Courier New', Courier, monospace;
-}
-
-body {
     color: #fff;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .main-header {
@@ -25,21 +22,34 @@ body {
 }
 
 .main-header header {
+    padding: 0 3rem;
     display: flex;
     justify-content: space-between;
+    align-items: end;
 }
 
 .main-header-nav {
+    overflow: hidden;
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
     width: clamp(24rem, 50%, 800px);
     height: 100%;
-    background-color: #eea;
+    background-color: #45452a;
+
+    border-radius: 12px 12px 0 0;
 }
 
 .main-header-nav button {
     font-weight: 700;
+    cursor: pointer;
+    transition-duration: 300ms;
+    box-sizing: border-box;
+}
+
+.main-header-nav button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .main-body {
@@ -48,5 +58,22 @@ body {
 }
 
 .main-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+    padding: 2rem 2rem;
+
+
     background-color: #212121;
+}
+
+.main-footer-contact-info {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+}
+
+.main-footer-nav {
+    display: grid;
+    gap: 1rem;
 }
