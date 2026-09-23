@@ -1,3 +1,10 @@
+:root {
+    --bg-clr: #131300;
+    --primary-clr: #212121;
+    --secondary-clr: #06f;
+    --highlight-clr: rgba(255, 255, 255, 0.1);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +15,17 @@
     font-family:'Courier New', Courier, monospace;
 }
 
+body {
+    background-color: var(--secondary-clr);
+}
+
 .main-header {
     position: sticky;
     top: 0;
     left: 0;
     right: 0;
 
-    background-color: #212121;
+    background-color: var(--primary-clr);
     padding: 0 1.5rem;
 }
 
@@ -35,7 +46,7 @@
     align-items: end;
 }
 .main-header-nav {
-    background-color: #959528;
+    background-color: var(--secondary-clr);
     height: 2rem;
     width: clamp(300px, 100%, 800px);
 
@@ -49,7 +60,7 @@
     cursor: pointer;
 }
 .main-header-nav button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--highlight-clr);
 }
 
 .main-header-right {
@@ -59,7 +70,7 @@
     align-items: center;
 }
 .main-header-right button {
-    border: #959528 solid 2px;
+    border: var(--secondary-clr) solid 2px;
     border-radius: 0 0 0 12px;
     padding: 8px 4px;
     height: 2.2rem;
@@ -75,21 +86,20 @@
     cursor: pointer;
 }
 .main-header-right button:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--highlight-clr);
 }
 .main-header-right button div {
     width: 60%;
     height: 2px;
     border-radius: 1px;
 
-    background-color: #959528;
+    background-color: var(--secondary-clr);
 }
-
-
 
 .main-body {
     height: 120vh;
-    background-color: #110;
+    background-color: var(--bg-clr);
+    align-self: center;
 }
 
 .main-footer {
@@ -99,7 +109,7 @@
     padding: 2rem 2rem;
 
 
-    background-color: #212121;
+    background-color: var(--primary-clr);
 }
 
 .main-footer-contact-info {
