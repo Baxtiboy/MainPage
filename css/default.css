@@ -1,0 +1,18 @@
+:root {
+    --primary-clr: #555;
+    --secondary-clr: #741;
+    --tertiary-clr: #333;
+    --bg-clr: #cecece;
+    --highligh-clr: rgba(255, 255, 255, 0.1);
+    --text-clr: #fff;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--text-clr);
+    margin: 0;
+    padding: 0;
+    background-color: unset;
+    border: none;
+    text-decoration: none;
+}
