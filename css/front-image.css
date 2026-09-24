@@ -1,0 +1,30 @@
+/* -------------------------------------------------- */
+
+
+@import "default.css";
+
+
+/* -------------------------------------------------- */
+
+
+#front-image {
+    position: relative;
+    height: 70vh;
+
+    background-image: linear-gradient(45deg, var(--primary-clr), var(--secondary-clr));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#front-image > .placeholder {
+    padding: 4rem 6rem;
+    border-radius: 2rem;
+
+    font-size: 3rem;
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+
+/* -------------------------------------------------- */

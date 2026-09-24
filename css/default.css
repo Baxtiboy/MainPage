@@ -1,7 +1,7 @@
 :root {
-    --primary-clr: #555;
-    --secondary-clr: #741;
-    --tertiary-clr: #333;
+    --primary-clr: #222;
+    --secondary-clr: #08f;
+    --tertiary-clr: #eee;
     --bg-clr: #cecece;
     --highligh-clr: rgba(255, 255, 255, 0.1);
     --text-clr: #fff;
@@ -15,4 +15,5 @@
     background-color: unset;
     border: none;
     text-decoration: none;
+    user-select: none;
 }

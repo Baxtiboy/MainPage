@@ -1,1 +1,36 @@
+/* -------------------------------------------------- */
+
+
 @import "default.css";
+
+
+/* -------------------------------------------------- */
+
+
+.menu-btn {
+    display: flex;
+    flex-direction: column;
+    
+    width: 36px;
+    gap: 8px;
+}
+
+.menu-btn > div {
+    height: 2px;
+    background-color: var(--secondary-clr);
+    border-radius: 1px;
+}
+
+
+/* -------------------------------------------------- */
+
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--secondary-clr);
+    cursor: pointer;
+}
+
+
+/* -------------------------------------------------- */

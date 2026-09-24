@@ -1,8 +1,20 @@
+/* -------------------------------------------------- */
+
+
 @import "default.css";
+@import "front-image.css";
+
+
+/* -------------------------------------------------- */
+
 
 body {
     background-color: var(--bg-clr);
 }
+
+
+/* -------------------------------------------------- */
+
 
 #header {
     position: sticky;
@@ -15,6 +27,10 @@ body {
     padding: 0 2rem;
 
     background-color: var(--primary-clr);
+
+    box-shadow: 0 4px 2rem rgba(0, 0, 0, 0.5);
+
+    z-index: 2;
 }
 
 #header > .left {
@@ -32,6 +48,9 @@ body {
     height: 2rem;
     display: flex;
     background-color: var(--secondary-clr);
+    border-radius: 12px 12px 0 0;
+
+    overflow: hidden;
     
 }
 #header > .center > nav > button {
@@ -49,6 +68,7 @@ body {
 }
 
 
+/* -------------------------------------------------- */
 
 
 #main {
@@ -59,6 +79,7 @@ body {
 }
 
 
+/* -------------------------------------------------- */
 
 
 #footer {
@@ -75,6 +96,9 @@ body {
     padding: 1rem 0;
     gap: 1rem;
     align-items: center;
-    border-left: var(--tertiary-clr) dashed 2px;
-    border-right: var(--tertiary-clr) dashed 2px;
+    border-left: var(--secondary-clr) dashed 2px;
+    border-right: var(--secondary-clr) dashed 2px;
 }
+
+
+/* -------------------------------------------------- */
