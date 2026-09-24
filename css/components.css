@@ -10,15 +10,57 @@
 .menu-btn {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     
     width: 36px;
-    gap: 8px;
+    height: 36px;
+
+    cursor: pointer;
 }
 
 .menu-btn > div {
     height: 2px;
     background-color: var(--secondary-clr);
     border-radius: 1px;
+}
+
+
+/* -------------------------------------------------- */
+
+
+.profile-btn {
+    /* background-color: rgba(255, 255, 255, 0.1); */
+
+    border-radius: 50%;
+    width: 36px;
+    max-height: 36px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+.profile-btn > .head {
+    background-color:  var(--secondary-clr);
+
+    margin-top: 4px;
+
+    width: 16px;
+    min-height: 16px;
+    border-radius: 50%;
+    /* border: var(--primary-clr) solid 2px; */
+}
+
+.profile-btn > .body {
+    background-color: var(--secondary-clr);
+
+    width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
 }
 
 
