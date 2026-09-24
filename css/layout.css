@@ -9,7 +9,7 @@
 
 
 body {
-    background-color: var(--bg-clr);
+    background-color: var(--tertiary-clr);
 }
 
 
@@ -93,11 +93,11 @@ body {
 #footer > * {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     gap: 1rem;
     align-items: center;
-    border-left: var(--secondary-clr) dashed 2px;
-    border-right: var(--secondary-clr) dashed 2px;
+    border-left: var(--tertiary-clr) solid 3px;
+    border-right: var(--tertiary-clr) solid 3px;
 }
 
 
